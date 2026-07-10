@@ -110,7 +110,7 @@ if not df.empty:
         2.  Open your terminal or command prompt.
         3.  Navigate to the directory where you saved `app.py`.
         4.  Run `streamlit run app.py`.
-        This will open the application in your web browser. You can then use Streamlit Community Cloud or other platforms for public deployment as discussed previously."
+        This will open the application in your web browser. You can then use Streamlit Community Cloud or other platforms for public deployment as discussed previously."""
     )
 else:
     st.warning("Please ensure 'income.csv' is available to run the clustering analysis.")

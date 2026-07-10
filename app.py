@@ -105,7 +105,7 @@ if not df.empty:
     st.markdown("--- ")
     st.markdown("### Deployment Instructions")
     st.info(
-        "To run this Streamlit application:
+        """To run this Streamlit application:
         1.  Save the code above into a file named `app.py` in your local machine.
         2.  Open your terminal or command prompt.
         3.  Navigate to the directory where you saved `app.py`.

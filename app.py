@@ -105,12 +105,12 @@ if not df.empty:
     st.markdown("--- ")
     st.markdown("### Deployment Instructions")
     st.info(
-        """To run this Streamlit application:
-        1.  Save the code above into a file named `app.py` in your local machine.
-        2.  Open your terminal or command prompt.
-        3.  Navigate to the directory where you saved `app.py`.
-        4.  Run `streamlit run app.py`.
-        This will open the application in your web browser. You can then use Streamlit Community Cloud or other platforms for public deployment as discussed previously."""
+        """To run this Streamlit application\n:
+        1.  Save the code above into a file named `app.py` in your local machine\n.
+        2.  Open your terminal or command prompt\n.
+        3.  Navigate to the directory where you saved `app.py`\n.
+        4.  Run `streamlit run app.py`\n.
+        This will open the application in your web browser. You can then use Streamlit Community Cloud or other platforms ."""
     )
 else:
     st.warning("Please ensure 'income.csv' is available to run the clustering analysis.")
